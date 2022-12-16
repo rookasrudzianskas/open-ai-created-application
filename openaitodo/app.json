@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "com.rooookas.todoappbuitbyai",
+    "slug": "openaitodo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rooookas.todoappbuitbyai"
+    },
+    "android": {
+      "versionCode": 1,
+      "package": "com.rooookas.todoappbuitbyai",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e483da75-6705-4c66-a2e8-dbc800df9349"
+      }
+    }
+  }
+}
